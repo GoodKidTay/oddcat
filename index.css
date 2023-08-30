@@ -1,0 +1,119 @@
+html{
+color:white;
+font-size:15px;
+font-weight:600 ;
+background :
+#01204e;
+font-family:'consolas';
+font-family: monospace
+}
+table,
+td {
+border-radius :10px ;
+padding :4px; margin: 0ppmargin: margin: ;
+border-spacing:3px;
+border-collapse:0px;
+border-radius: 12px;
+    overflow: ;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+}
+table {
+width:100%;
+color :white
+}
+tbody tr:nth-child(even)
+{
+background:#028391;
+}
+a{
+color :white;
+}
+marquee {
+background-color :#028391;
+font-size:15px;
+padding :1px ;
+text-transform: uppercase;  
+font-weight: 300;
+}
+h1{
+font-family:monospace;
+font-size:15px ;
+color:white;
+font-family:consolas;
+animation-name:glow;
+animation-duration:0.2s ;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+}
+@keyframes glow{
+from{text-shadow:0px 0px 20px  #fff,0px 0px 5px #801336;}
+to{text-shadow:0px 0px 20px #BC0000,0px 0px 20px #6b5b95;}
+}
+.waviy span {
+background-color :#028391;
+font-weight :700 ;
+font-size:20px;
+padding :25px 7px;
+display: inline-block;
+color: white ;
+text-transform: uppercase;
+animation: flip 4.5s infinite;
+animation-delay:1s;
+}
+@keyframes flip {
+0%,80%
+{
+transform: rotateY(360deg)
+}
+}
+div{
+color:white;
+font-size:15px;
+font-weight:600 ;
+background :
+#01204e;
+font-family:'consolas';
+font-family: monospace
+}
+
+footer {
+font-family:monospace;
+font-size:18x;
+color:white;
+font-family:consolas;
+animation-name:glow;
+animation-duration:0.2s ;
+animation-iteration-count:infinite;
+animation-direction:alternate;
+}
+@keyframes glow{
+from{text-shadow:0px 0px 5px #fff,0px 0px 5px #801336;}
+to{text-shadow:0px 0px 20px #BC0000,0px 0px 20px #6b5b95;}
+}
+
+
+
+
+h2 {
+  margin-left: auto;
+  margin-top: 50px;
+  text-align: r;
+  font-weight: 100;
+  font-size: 20px;
+  color: #ffffff;
+}
+
+div {
+  width: 500px;
+  margin: ;
+}
+
+.
+	font-weight: 500;
+	padding:6px 4px;
+  margin-top: 15px;
+
+  margin-right: 60px;
+	text-decoration:none;
+}
+
