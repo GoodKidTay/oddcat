@@ -1,63 +1,115 @@
-html{
-color:white;
-font-size:15px;
-font-weight:600 ;
-background :
-#028391;
-font-family:'consolas';
-font-family: monospace
+Html{
+    Background-color :#001d3d ;
+    background: linear-gradient(90deg, #001d3d ,#f86041 );		
+    Color :white ;
+    Font-weight :bold  ;
+    Font-family :monospace ;
+    Text-transform :uppercase ;
 }
-
-iframe {   
-width:100%;
-height:100%;    
-border-radius:2px;
+    
+ 
+.topnav {
+  background-color: #001d3d;
+  overflow:hidden ;
+  border-radius :7px ;
+  border-radius :10px ;
+  padding :4px; 
+  border-spacing:3px;
+  border-collapse:separate ;
+  box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+}
+  
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  border-radius :15px ;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 15px ;
+  Font-weight :700 ;
+}
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+/* Add a color to the active/current link */
+.topnav .active {
+  background-color: #f86041 ;
+  color:white;
+} 
+marquee {
+background-color: #001d3d;
+Color :white ;
+font-size:12px;
+padding :6px ;
+text-transform: uppercase;  
+font-weight: 100;
+Border-radius :10px ;
+Position :relative ;
+top:10px ;
+overflow:hidden ;
+border-spacing:8px;
+border-collapse:separate ;
+box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+}
+.hd{
+    Color :white ;
+    Font-weight :600 ;
+    Font-size :25px ;
+    Position :relative ;
+    Top:30px ;
+    Text-transform :uppercase ;
+    Text-shadow :rgba 0 0 6 ;
+   
+}
+table,
+td {
+border-radius:7px ;
 padding :4px;
 border-spacing:3px;
-border-collapse:0px;
-border-radius: 12px;
-    overflow: hidden;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+border-collapse:separate ;
+    overflow:hidden ;
+    box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+Font-family :monospace ;
 }
-
-
-
-
-marquee {
-background-color :#01204e;
-font-size:15px;
-padding :0px ;
-text-transform: uppercase;  
-font-weight: 300;
+table {
+width:100%;
+color :white;
+Background-color :#001d3d;
+Font-weight :700 ;
+Text-transform :uppercase ;
+Font-size :15px ;
 }
-
-h1{
-font-family:monospace;
-font-size:13px ;
-color:white;
-font-family:'consolas';
-animation-name:glow;
-animation-duration:0.2s ;
-animation-iteration-count:infinite;
-animation-direction:alternate;
-}
-@keyframes glow{
-from{text-shadow:0px 0px 5px #fff,0px 0px 5px #801336;}
-to{text-shadow:0px 0px 20px #BC0000,0px 0px 20px #6b5b95;}
+tbody tr:nth-child(even)
+{
+background:#f86041;
 }
 .waviy span {
-background-color :#01204e;
+background-color :#001d3d ;
 font-weight :600 ;
-font-size:30px;
+font-size:20px;
 padding :25px 7px;
 display: inline-block;
 color: white ;
 text-transform: uppercase;
-animation: flip 4.5s infinite;
+animation: flip 2.5s infinite;
 animation-delay:1s;
+Border-radius :7px ;
+Position :relative ;
+Letter-spacing :10px ;
+box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+Text-shadow :0 0 3px ;
 }
 @keyframes flip {
 0%,80%
 {
 transform: rotateY(360deg)
 }
+}
+div{ 
+    
+    
+    
