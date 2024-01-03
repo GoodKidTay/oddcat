@@ -1,6 +1,6 @@
 Html{
-    Background-color :#001d3d ;
-    background: linear-gradient(90deg, #001d3d ,#f86041 );		
+    Background-color :#fcfffc ;
+    background:#2d3a3a;
     Color :white ;
     Font-weight :bold  ;
     Font-family :monospace ;
@@ -9,39 +9,41 @@ Html{
     
  
 .topnav {
-  background-color: #001d3d;
-  overflow:hidden ;
-  border-radius :7px ;
-  border-radius :10px ;
-  padding :4px; 
-  border-spacing:3px;
-  border-collapse:separate ;
+  background-color: #040f0f;
+  overflow:inherit ;
+  padding :15px; 
+  Background :#0d1f23 ;
+  border-collapse:inherit ;
   box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+  Border-radius :10px ;
+ 
 }
   
 /* Style the links inside the navigation bar */
 .topnav a {
-  float: left;
-  color: #f2f2f2;
+  float: inherit ;
+  color: white ;
   text-align: center;
   border-radius :15px ;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 15px ;
+  font-size: 13px ;
   Font-weight :700 ;
+  Border-style :inset;
+  
 }
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: white ;
   color: black;
 }
 /* Add a color to the active/current link */
 .topnav .active {
-  background-color: #f86041 ;
+  background-color: #477460;
   color:white;
 } 
 marquee {
-background-color: #001d3d;
+background-color: #040f0f;
 Color :white ;
 font-size:12px;
 padding :6px ;
@@ -54,6 +56,7 @@ overflow:hidden ;
 border-spacing:8px;
 border-collapse:separate ;
 box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+Border-style :groove ;
 }
 .hd{
     Color :white ;
@@ -71,37 +74,40 @@ border-radius:7px ;
 padding :4px;
 border-spacing:3px;
 border-collapse:separate ;
-    overflow:hidden ;
-    box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+overflow:hidden ;
+box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
 Font-family :monospace ;
+Border-style :groove ;
 }
 table {
 width:100%;
 color :white;
-Background-color :#001d3d;
-Font-weight :700 ;
+Background-color :#040f0f ;
+Font-weight :700;
 Text-transform :uppercase ;
 Font-size :15px ;
+Border-style :groove ;
 }
 tbody tr:nth-child(even)
 {
-background:#f86041;
+background:#477460 ;
 }
 .waviy span {
-background-color :#001d3d ;
+background-color :#040f0f ;
 font-weight :600 ;
-font-size:20px;
+font-size:15px;
 padding :25px 7px;
 display: inline-block;
 color: white ;
 text-transform: uppercase;
-animation: flip 2.5s infinite;
+animation: flip 3.5s infinite;
 animation-delay:1s;
 Border-radius :7px ;
 Position :relative ;
 Letter-spacing :10px ;
-box-shadow: 0 0 7px rgba(0, 0, 0, 0.9);
+box-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
 Text-shadow :0 0 3px ;
+Border-style :ridge ;
 }
 @keyframes flip {
 0%,80%
@@ -109,7 +115,11 @@ Text-shadow :0 0 3px ;
 transform: rotateY(360deg)
 }
 }
-div{ 
+.rt{
+    Font-weight :bold ;
+    Font-size :15px ;
+    
+}
     
     
     
